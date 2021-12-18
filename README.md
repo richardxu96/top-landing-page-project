@@ -1,0 +1,1 @@
+Follow The Odin Project by creating a landing page using Flexbox

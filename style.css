@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+/* remove the dots from list */
+.navitem {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+/* remove the line under the links */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* get logo on the left side */
+.navitem:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+    font-weight: bold;
+}
